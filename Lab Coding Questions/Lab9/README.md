@@ -18,15 +18,13 @@ Give code for a class FixedStack which implements the above interface. FixedStac
 Class **FixedStack**
 
 Data Members :
-private int arr[]  // to store stack elements in an array
-private int top   // pointer pointing to the top most element of stack
-private boolean ok;
+- private int arr[]  // to store stack elements in an array
+- private int top   // pointer pointing to the top most element of stack
+- private boolean ok;
+
 Methods : 
-public FixedStack(int ArraySize) : Constructor to initialises top to -1 and instantiate arr with a new array of length ArraySize.
-
-public void push(int val) : Method to add element to the stack. This method sets ok to false  if stack is full, otherwise adds element to arr and sets ok to true. 
-
-public int pop() : Method to remove and return element from the top of the stack. This method sets ok to false and returns -1 if stack is empty, otherwise sets ok to true and removes and returns the element at the top of the stack.
-
-public int view() : Method to view element present at top of stack. This method sets ok to false and returns -1 if stack is empty,  otherwise sets ok to true and returns the element at the top of the stack.
-public boolean returnOk() : returns the value of ok
+- public FixedStack(int ArraySize) : Constructor to initialises top to -1 and instantiate arr with a new array of length ArraySize.
+- public void push(int val) : Method to add element to the stack. This method sets ok to false  if stack is full, otherwise adds element to arr and sets ok to true. 
+- public int pop() : Method to remove and return element from the top of the stack. This method sets ok to false and returns -1 if stack is empty, otherwise sets ok to true and removes and returns the element at the top of the stack.
+- public int view() : Method to view element present at top of stack. This method sets ok to false and returns -1 if stack is empty,  otherwise sets ok to true and returns the element at the top of the stack.
+- public boolean returnOk() : returns the value of ok
