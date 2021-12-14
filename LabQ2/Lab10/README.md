@@ -1,5 +1,7 @@
-Write code a class CarRoof having a method 
+Write code a class **CarRoof** having a method 
 int minRoofSize(List  <Integer> cars, int k) 
+  
+
 There are many cars parked in the parking lot. The parking is a straight, very long line and has a parking slot for every single meter. There are n cars parked currently and you want to cover them from the rain by building a roof. The requirement is that at least k cars are covered by the roof. What is the minimum length of the roof that would cover k cars?
 Example:
 Input:  cars : [2 10 8 17]
