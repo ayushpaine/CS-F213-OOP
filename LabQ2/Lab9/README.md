@@ -2,7 +2,8 @@ A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) pri
 
 We will use an integer array to create a basic stack.
 
-Interface StackLab9 with three abstract methods is as below. (type this code between lines, above and outside your Class in solution) 
+Interface **StackLab9** with three abstract methods is as below. (type this code between lines, above and outside your Class in solution) 
+
 ______________________________________________________________________________
 interface StackLab9{
 public void push(int val);
@@ -11,8 +12,11 @@ public int view();
 }
 ___________________________________________________________________
 
+
 Give code for a class FixedStack which implements the above interface. FixedStack class is used to implement a fixed-size stack i.e. a fixed maximum number of elements that can be stored in the stack. 
-Class FixedStack
+
+Class **FixedStack**
+
 Data Members :
 private int arr[]  // to store stack elements in an array
 private int top   // pointer pointing to the top most element of stack
@@ -21,6 +25,7 @@ Methods :
 public FixedStack(int ArraySize) : Constructor to initialises top to -1 and instantiate arr with a new array of length ArraySize.
 
 public void push(int val) : Method to add element to the stack. This method sets ok to false  if stack is full, otherwise adds element to arr and sets ok to true. 
+
 public int pop() : Method to remove and return element from the top of the stack. This method sets ok to false and returns -1 if stack is empty, otherwise sets ok to true and removes and returns the element at the top of the stack.
 
 public int view() : Method to view element present at top of stack. This method sets ok to false and returns -1 if stack is empty,  otherwise sets ok to true and returns the element at the top of the stack.
